@@ -1,0 +1,136 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="70dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Name"/>
+        <EditText
+
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Movie Name"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actor Name"/>
+        <EditText
+
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Actor Name"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actress Name"/>
+        <EditText
+
+            android:id="@+id/ed3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Actress Name"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Releaased Year"/>
+        <EditText
+            android:id="@+id/ed4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="Enter released year"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language"/>
+        <EditText
+            android:id="@+id/ed5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter language"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gross Collection"/>
+        <EditText
+            android:id="@+id/ed6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter Gross Ccllection"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distributor Name"/>
+        <EditText
+            android:id="@+id/ed7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter distributor name"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Producer Name"/>
+        <EditText
+            android:id="@+id/ed8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter producer name"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Production Company"/>
+        <EditText
+            android:id="@+id/ed9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Production Compmany name"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:background="#7999E7"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW ALL MOVIES"
+            android:background="#1AE26A"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
